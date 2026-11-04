@@ -78,34 +78,36 @@ flowchart TD
 | Approval record store | SQLite |
 | Tested Python version | Python 3.13.1 |
 
-## Project structure
+
+## Project Structure
 
 ```text
 ai-support-copilot/
-├── app.py                   # Streamlit interface and approval recovery
-├── smart_agent.py           # Smart intent router
-├── agent.py                 # Documentation RAG workflow
-├── approval_agent.py        # Draft, interrupt, approve/reject, save
-├── tools.py                 # Ticket lookup tool
-├── ingest.py                # Document embedding and ingestion
+├── app.py
+├── smart_agent.py
+├── agent.py
+├── approval_agent.py
+├── tools.py
+├── ingest.py
 ├── data/
 │   ├── account_guide.txt
 │   ├── billing_policy.txt
 │   ├── technical_support.txt
 │   └── tickets.json
-├── evaluate_agent.py        # Routing and safety evaluation
-├── evaluate_rag.py          # RAG evaluation
-├── test_smart_agent.py      # Smart router tests
-├── test_duplicate_save.py   # SQLite idempotency check
-├── test_hallucinations.py   # Hallucination-oriented checks
-├── test_persistence.py      # Persistence checks
-├── evaluation_results/      # Sample evaluation CSVs
+├── docs/
+│   ├── architecture.md
+│   └── screenshots/
+│       ├── dashboard.png
+│       ├── rag-answer.png
+│       └── human-approval.png
+├── evaluation_results/
 ├── requirements.txt
 ├── .gitignore
 └── README.md
 ```
 
-Additional test scripts are included in the repository. Local vector databases, SQLite files, generated approval exports, `.env`, and `.venv` are excluded from Git.
+Additional test and evaluation scripts are included in the repository.
+
 
 ## Quick start (Windows PowerShell)
 
@@ -118,14 +120,14 @@ Additional test scripts are included in the repository. Local vector databases, 
 ### 2. Clone and create a virtual environment
 
 ```powershell
-git clone <YOUR-REPOSITORY-URL>
+git clone https://github.com/kavithagm-25/ai-support-copilot.git
 cd ai-support-copilot
 py -3.13 -m venv .venv
 .\.venv\Scripts\Activate.ps1
 python -m pip install -r requirements.txt
 ```
 
-Replace `<YOUR-REPOSITORY-URL>` with your GitHub repository URL after publishing.
+
 
 ### 3. Download local AI models
 
