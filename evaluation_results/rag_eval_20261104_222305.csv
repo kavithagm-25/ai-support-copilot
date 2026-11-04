@@ -1,0 +1,6 @@
+question,intent,expected_terms,answer,passed,error
+How long is a password reset link valid?,docs,"30, minute",Password reset links expire after 30 minutes.,True,
+What is the monthly price of the Professional plan?,docs,25,$25 per month.,True,
+How many days do customers have to request a refund?,docs,14,Within 14 days of the initial purchase.,True,
+What should I do if I receive HTTP 429?,docs,"wait, retry",Wait before retrying.,True,
+What is the API request limit per minute?,docs,100,API requests are limited to 100 requests per minute.,True,

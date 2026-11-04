@@ -1,0 +1,16 @@
+
+CloudDesk Billing Policy
+
+CloudDesk offers three subscription plans:
+
+Basic: $10 per month.
+Professional: $25 per month.
+Enterprise: $80 per month.
+
+Customers can cancel their subscriptions at any time.
+
+Refunds are available within 14 days of the initial purchase.
+
+To request a refund, contact billing@clouddesk.example.
+
+Subscription changes take effect at the next billing cycle.

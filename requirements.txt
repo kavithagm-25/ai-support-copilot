@@ -1,0 +1,20 @@
+
+# ==========================================
+# CloudDesk AI Support Copilot
+# Python 3.13.1
+# ==========================================
+
+# Streamlit web interface
+streamlit==1.66.1
+
+# LangGraph agent orchestration
+langgraph==1.2.19
+
+# SQLite checkpoint persistence
+langgraph-checkpoint-sqlite==3.1.3
+
+# RAG vector database
+chromadb==1.5.9
+
+# Local LLM and embedding integration
+ollama==0.6.3

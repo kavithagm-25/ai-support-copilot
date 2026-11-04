@@ -1,0 +1,27 @@
+
+[
+  {
+    "ticket_id": "TKT-1001",
+    "customer": "Alice Johnson",
+    "subject": "Password reset email not received",
+    "status": "Open",
+    "priority": "High",
+    "description": "Customer requested a password reset but has not received the email."
+  },
+  {
+    "ticket_id": "TKT-1002",
+    "customer": "Bob Smith",
+    "subject": "Billing refund request",
+    "status": "In Progress",
+    "priority": "Medium",
+    "description": "Customer purchased the Professional plan 5 days ago and wants a refund."
+  },
+  {
+    "ticket_id": "TKT-1003",
+    "customer": "Carol Davis",
+    "subject": "API rate limit error",
+    "status": "Resolved",
+    "priority": "Low",
+    "description": "Customer encountered HTTP 429 errors while making API requests."
+  }
+]

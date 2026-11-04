@@ -1,0 +1,17 @@
+
+CloudDesk Account Guide
+
+To reset your CloudDesk password:
+1. Open the CloudDesk login page.
+2. Click "Forgot Password".
+3. Enter your registered email address.
+4. Open the password reset email.
+5. Follow the link and create a new password.
+
+Password reset links expire after 30 minutes.
+
+To enable two-factor authentication:
+1. Log in to CloudDesk.
+2. Open Settings.
+3. Select Security.
+4. Enable Two-Factor Authentication.

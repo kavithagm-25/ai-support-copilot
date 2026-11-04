@@ -1,0 +1,16 @@
+
+CloudDesk Technical Support
+
+If the CloudDesk application is running slowly:
+1. Check your internet connection.
+2. Restart the application.
+3. Clear the browser cache.
+4. Update your browser.
+5. Contact technical support if the issue continues.
+
+CloudDesk API requests are limited to 100 requests per minute.
+
+If an API request returns HTTP 429, wait before retrying.
+
+Technical support is available Monday through Friday,
+9 AM to 6 PM.
